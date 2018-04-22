@@ -52,8 +52,8 @@
 #endif
 
 //// The following define selects which power supply you have. Please choose the one that matches your setup
-// 1 = ATX
-// 2 = X-Box 360 203Watts (the blue wire connected to PS_ON and the red wire to VCC)
+// 1 = ATX (awake - LOW, asleep - HIGH)
+// 2 = X-Box 360 203Watts (the blue wire connected to PS_ON and the red wire to VCC) (awake - HIGH, asleep - LOW)
 
 #define POWER_SUPPLY 1
 
